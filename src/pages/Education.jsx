@@ -90,7 +90,7 @@ const Education = () => {
                     <p className="text-white/80 text-lg mb-2">{edu.institution}</p>
                     <p className="text-white/60">{edu.description}</p>
                     <div className="mt-4">
-                      <span className="badge badge-primary hover:bg-success">{edu.grade}</span>
+                      <span className="badge badge-primary">{edu.grade}</span>
                     </div>
                   </div>
                 </div>

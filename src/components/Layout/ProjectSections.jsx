@@ -23,7 +23,7 @@ const projects = [
     icon: FaBitbucket,
     tech: ['Bootstrap', 'Python', 'HTML', 'CSS', 'SQLite3', 'Django'],
     color: 'primary',
-    link: 'https://github.com/Coder-i/greatkart-Ecommerce-Website',
+    link: 'https://github.com',
     demo: 'https://demo.com',
   },
   {
@@ -32,8 +32,8 @@ const projects = [
     icon: FaRocketchat,
     tech: ['MERN', 'Zustand', 'DaisyUI', 'Socket.io', 'TailwindCSS'],
     color: 'secondary',
-    link: 'https://github.com/Coder-i/Zingle---A-Realtime-Chat-App',
-    demo: 'https://zingle-a-realtime-chat-app.onrender.com',
+    link: 'https://github.com',
+    demo: 'https://demo.com',
   },
   {
     title: 'Twitter-clone',
@@ -41,7 +41,7 @@ const projects = [
     icon: FaTwitter,
     tech: ['MERN', 'TailwindCSS', 'JWT', 'Tanstack'],
     color: 'accent',
-    link: 'https://github.com/Coder-i/twitter-clone',
+    link: 'https://github.com',
     demo: 'https://demo.com',
   },
   {
