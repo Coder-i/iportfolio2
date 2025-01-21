@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useTheme } from './hooks/useTheme';
-import VideoBackground from './components/layout/VideoBackground';
-import Navbar from './components/layout/Navbar';
+import VideoBackground from './components/Layout/VideoBackground';
+import Navbar from './components/Layout/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Education from './pages/Education';
 
 gsap.registerPlugin(ScrollTrigger);
-
+ 
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
