@@ -1,0 +1,37 @@
+export const getIconHoverClass = (theme) => {
+    const themeClasses = {
+      light: "hover:text-gray-700 hover:bg-gray-200",
+      dark: "hover:text-white hover:bg-gray-800",
+      cupcake: "hover:text-pink-500 hover:bg-pink-200",
+      bumblebee: "hover:text-yellow-500 hover:bg-yellow-200",
+      emerald: "hover:text-emerald-500 hover:bg-emerald-200",
+      corporate: "hover:text-blue-500 hover:bg-blue-200",
+      synthwave: "hover:text-purple-500 hover:bg-purple-200",
+      retro: "hover:text-amber-500 hover:bg-amber-200",
+      cyberpunk: "hover:text-yellow-400 hover:bg-yellow-900",
+      valentine: "hover:text-pink-400 hover:bg-pink-100",
+      halloween: "hover:text-orange-600 hover:bg-orange-200",
+      garden: "hover:text-green-500 hover:bg-green-200",
+      forest: "hover:text-green-600 hover:bg-green-300",
+      aqua: "hover:text-cyan-500 hover:bg-cyan-200",
+      lofi: "hover:text-gray-800 hover:bg-gray-300",
+      pastel: "hover:text-purple-400 hover:bg-purple-200",
+      fantasy: "hover:text-purple-500 hover:bg-purple-200",
+      wireframe: "hover:text-gray-900 hover:bg-gray-300",
+      black: "hover:text-gray-300 hover:bg-gray-800",
+      luxury: "hover:text-yellow-500 hover:bg-yellow-100",
+      dracula: "hover:text-purple-400 hover:bg-purple-900",
+      cmyk: "hover:text-cyan-500 hover:bg-cyan-200",
+      autumn: "hover:text-orange-500 hover:bg-orange-200",
+      business: "hover:text-blue-600 hover:bg-blue-200",
+      acid: "hover:text-lime-400 hover:bg-lime-200",
+      lemonade: "hover:text-yellow-400 hover:bg-yellow-200",
+      night: "hover:text-blue-400 hover:bg-blue-900",
+      coffee: "hover:text-amber-700 hover:bg-amber-200",
+      winter: "hover:text-blue-300 hover:bg-blue-100",
+      dim: "hover:text-gray-400 hover:bg-gray-700",
+      nord: "hover:text-blue-400 hover:bg-blue-200",
+      sunset: "hover:text-orange-400 hover:bg-orange-200"
+    }; 
+    return themeClasses[theme] || "hover:text-primary hover:bg-base-300";
+};
