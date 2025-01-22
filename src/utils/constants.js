@@ -36,10 +36,10 @@ export const menuItems = [
 export const socialLinks=
   [
     { icon: FaGithub, url: "https://github.com/Coder-i " },
-    { icon: FaInstagram, url: "https://www.instagram.com/baarish2211  " },
-    { icon: FaTwitter, url: "https://x.com/KumarBaarish?s=09" },
-    { icon: FaFacebook, url: "https://www.facebook.com/share/15HNmtAkX9/" },
-    { icon: FaLinkedin, url: " https://www.linkedin.com/in/aman-baghel-1a99a42a7" }
+    { icon: FaInstagram, url: "https://www.instagram.com/_baarish2211_/?utm_source=qr&igsh=ZDZ5NmFiOW04bmoz " },
+    { icon: FaTwitter, url: "https://x.com/KumarBaarish" },
+    { icon: FaFacebook, url: "https://www.facebook.com/profile.php?id=100088125770558" },
+    { icon: FaLinkedin, url: " https://www.linkedin.com/in/aman-baghel-1a99a42a7/" }
   ]
 {/*https://www.instagram.com/baarish2211?igsh=ZDZ5NmFiOW04bmoz   https://www.linkedin.com/in/aman-baghel-1a99a42a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 https://github.com/Coder-i  https://x.com/KumarBaarish?s=09 https://www.facebook.com/share/15HNmtAkX9/ */}

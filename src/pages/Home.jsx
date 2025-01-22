@@ -19,7 +19,7 @@ const Home = ({ currentTheme }) => {
         <p className="mx-auto mb-8 max-w-2xl text-base md:text-lg text-white">
           Welcome to my portfolio. Feel free to browse my website, and drop your
           suggestions on my{" "}
-          <a href="#" className="text-primary hover:underline">
+          <a href="https://github.com/Coder-i" className="text-primary hover:underline">
             Github repo
           </a>
           . Thank you for visiting!

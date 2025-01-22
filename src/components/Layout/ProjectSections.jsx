@@ -1,9 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import {
-  FaReact,
-  FaNode,
-  FaDocker,
-  FaAws,
+ 
   FaGithub,
   FaExternalLinkAlt,
   FaLaptopCode,
@@ -23,7 +20,7 @@ const projects = [
     icon: FaBitbucket,
     tech: ['Bootstrap', 'Python', 'HTML', 'CSS', 'SQLite3', 'Django'],
     color: 'primary',
-    link: 'https://github.com',
+    link: 'https://github.com/Coder-i/greatkart-Ecommerce-Website',
     demo: 'https://demo.com',
   },
   {
@@ -32,8 +29,8 @@ const projects = [
     icon: FaRocketchat,
     tech: ['MERN', 'Zustand', 'DaisyUI', 'Socket.io', 'TailwindCSS'],
     color: 'secondary',
-    link: 'https://github.com',
-    demo: 'https://demo.com',
+    link: 'https://github.com/Coder-i/Zingle---A-Realtime-Chat-App',
+    demo: 'https://zingle-a-realtime-chat-app.onrender.com/',
   },
   {
     title: 'Twitter-clone',
@@ -41,16 +38,16 @@ const projects = [
     icon: FaTwitter,
     tech: ['MERN', 'TailwindCSS', 'JWT', 'Tanstack'],
     color: 'accent',
-    link: 'https://github.com',
+    link: 'https://github.com/Coder-i/twitter-clone',
     demo: 'https://demo.com',
   },
   {
-    title: 'Developer Portfolio',
-    description: 'Modern portfolio website with theme switching and GSAP animations.',
+    title: 'Hospital Management System',
+    description: 'Helps hospital management to track the doctor and staff with proper schedule and time table',
     icon: FaLaptopCode,
-    tech: ['React', 'Tailwind', 'GSAP', 'DaisyUI'],
+    tech: [ 'Django','HTML','CSS','Bootstrap','Python','SQLite3'],
     color: 'info',
-    link: 'https://github.com',
+    link: 'https://github.com/Coder-i/Hospital-management-system',
     demo: 'https://demo.com',
   },
 ];
